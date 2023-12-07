@@ -14,7 +14,6 @@ const onUpload = () => {
 };
 function handleBeforeUpload(event) {
   event.formData.append('_token', usePage().props.token)
-  console.log(event)
 }
 </script>
 
